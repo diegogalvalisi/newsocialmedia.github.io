@@ -15,11 +15,13 @@ if (document.getElementsByClassName('demo').length > 0) {
   var txt = `social media is in crisis
             [We need to re-think and re-design social media, towards a better one]
 
-            ###todo for new year dinner party
+            ###and beyond
 
-            - protocols
-            - IDSPs
+            - interoperability protocols
+            - decentralized social profiles
             - platforms
+            - identity providers
+            - home + cloud servers
             - sociopolitical frames🥝`;
   var speed = 60;
 
