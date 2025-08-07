@@ -12,17 +12,19 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `social media is in crisis
-            [We need to re-think and re-design social media, towards a better one]
+  var txt = `social media is healing
+            [With the re-thinking and re-design of its architecture, towards a better one]
 
-            ###and beyond
+            :
 
             - interoperability protocols
-            - decentralized social profiles
-            - platforms
+            - personal data servers
+            - clients
             - identity providers
+            - relays + firehoses
+            - modular moderation/labeling
             - home + cloud servers
-            - sociopolitical frames🥝`;
+            - sociopolitical frames`;
   var speed = 60;
 
   function typeItOut () {
